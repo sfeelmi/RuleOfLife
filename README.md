@@ -23,3 +23,4 @@ Life Reminder is a simple Visual Studio Code extension that inserts a motivation
 ### 1.0.0
 
 Initial release of Life Reminder.
+Жвирко Кира/М3120
