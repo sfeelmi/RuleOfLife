@@ -1,0 +1,33 @@
+{
+  "name": "ruleoflife",
+  "displayName": "RuleOfLife",
+  "description": "Inserts life reminder into code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+ 
+  
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ruleoflife.insertPhrase",
+        "title": "Insert Life Reminder Phrase"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ruleoflife.insertPhrase",
+        "key": "ctrl+alt+7",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}
